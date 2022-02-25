@@ -1,0 +1,66 @@
+@import url('root.css');
+@import url('common.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* Main --------------------------------------------- */
+
+body {
+    overflow: hidden;
+}
+
+.resume {
+    height: 100vh;
+    background: linear-gradient(45deg, var(--c_purple), 70%, var(--c_blue));
+}
+
+.page {
+    height: 100%;
+}
+
+
+/* Pages --------------------------------------------- */
+
+/* Header */
+.header_main {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+.header_main__block {
+    height: var(--header_heigth); width: 340px;
+    background-color: var(--c_white);
+}
+
+.header_main__block.left {
+    border-radius: 0 0 var(--header_block_border_radius) 0;
+}
+
+.header_main__block.right {
+    border-radius: 0 0 0 var(--header_block_border_radius);
+}
+
+/* My name */
+.my_name {
+    position: relative;
+    perspective: 1000px;
+    margin-bottom: 31px;
+}
+
+.my_name__text.ru {
+    position: absolute;
+    top: 0; left: -30px;
+
+    white-space: nowrap;
+    opacity: 1;
+    transform: rotateX(-90deg);
+}
+
+
+

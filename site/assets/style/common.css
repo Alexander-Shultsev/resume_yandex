@@ -1,0 +1,61 @@
+/* Position ----------------------------------------- */
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center_horisonal_several {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center_vertical {
+    display: flex;
+    align-items: center;
+}
+
+.spasce_around_horisontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Text ----------------------------------------- */
+
+.title_big_main {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: var(--c_white);
+    color: rgba(0,0,0,0);
+    
+    font-size: 78px;
+    text-transform: capitalize;
+    letter-spacing: 7px;
+}
+
+.subtitle {
+    color: var(--c_white);
+    font-size: 25px;
+    letter-spacing: 12px;
+    font-weight: 700;
+}
+
+.text_header {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--c_gray1);
+    letter-spacing: 1px;
+}
+
+/* Other ----------------------------------------- */
+
+.elemAnim {
+    position: absolute;
+
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--c_white);
+    opacity: .1;
+    white-space: nowrap;
+}

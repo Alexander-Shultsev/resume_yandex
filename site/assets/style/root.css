@@ -1,0 +1,14 @@
+:root {
+    --c_white: #fff;
+    --c_black: #000;
+    --c_gray1: rgba(0, 0, 0, .5);
+
+    /* color */
+    --c_purple: #9B51E0;
+    --c_blue: #2F80ED;
+
+    /* size */
+    --header_block_border_radius: 10px;
+    --header_heigth: 70px;
+    --header_top: -70px;
+}

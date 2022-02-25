@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.elem {
+    position: absolute;
+    top: 0; left: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
